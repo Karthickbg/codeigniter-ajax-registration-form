@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
- echo "<p>Success page</p>";
+ echo $message; ;
  ?>
 </body>
 </html>
