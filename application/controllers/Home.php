@@ -40,7 +40,7 @@ class Home extends CI_Controller {
 				$data['create_user_form_errors'] ="";
 				
 				
-				$data['message']=$this->Home_login->check_login($_POST);					 
+				$data['message']=$this->Home_login_model->check_login($_POST);					 
 				
 				$this->load->view('result',$data); 
 			}		
