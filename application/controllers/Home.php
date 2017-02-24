@@ -22,7 +22,7 @@ class Home extends CI_Controller {
     {
         // Call the Model constructor
         parent::__construct();
-		$this->load->model('Home_login');
+		$this->load->model('Home_login_model');
 
 
     }
