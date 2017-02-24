@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home_login extends CI_Model {
+class Home_login_model extends CI_Model {
 
 	/**
 	 * Index Page for this controller.
